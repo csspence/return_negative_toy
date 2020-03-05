@@ -21,6 +21,7 @@ const makeNegative = (num) => {
     return num;
   }
   if(num > 0) {
-    return parseInt('-' + num);
+    let answer = num - num - num;
+    return answer;
   }
 }
